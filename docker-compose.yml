@@ -1,0 +1,7 @@
+version: "2"
+services:
+  eval:
+    build: .
+    container_name: eval_1
+    volumes:
+        - .:/opt
